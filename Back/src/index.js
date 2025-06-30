@@ -6,7 +6,7 @@ import db from './config/db.js';
 import usuarios from './routes/usuarios.js';
 import favoritosRoutes from './routes/favoritos.js';
 import historialRoutes from './routes/historial.js';
-import { inicializarTablas } from './config/initdb.js';
+import { inicializarTablas } from './config/initDB.js';
 
 const app = express();
 const corsOptions = {
